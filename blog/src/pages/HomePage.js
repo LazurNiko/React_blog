@@ -1,3 +1,5 @@
 export const HomePage = () => (
-  <h1>This is the homepage</h1>
+  <section className="article_home">
+  <h1 className="page_title">Seven Wonders of the World</h1>
+  </section>
 )

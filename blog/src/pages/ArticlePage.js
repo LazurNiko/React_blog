@@ -11,11 +11,14 @@ export const ArticlePage = () => {
   }
 
   return (
-    <>
-      <h1>{article.title}</h1>
-      {article.content.map((paragraph, i) => (
-        <p key={i}>{paragraph}</p>
-      ))}
-    </>
+      <section>
+      <h1 className="page_title">{article.title}</h1>
+        {article.image.map((image, i) => (
+          <img className="article_image" src={article.image[i]} alt =""></img>
+        ))}
+          {article.content.map((paragraph, i) => (
+          <p className="article_paragraph" key={i}>{paragraph}</p>
+          ))}
+      </section>
   )
 };

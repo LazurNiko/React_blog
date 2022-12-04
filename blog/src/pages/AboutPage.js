@@ -1,29 +1,32 @@
 export const AboutPage = () => (
-  <>
-    <h1>About Me</h1>
-    <p>
-        Welcome to my blog! Proin congue
-        ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
-        Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
-        non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
-        eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at 
-        sodales purus euismod.
+    <section>
+      <h1 className="page_title">What Are the Seven Wonders of the World?</h1>
+      <article className="article_paragraph">
+      <p>
+      Various lists of the Wonders of the World have been compiled from antiquity to the 
+      present day, in order to catalogue the world's most spectacular natural features and 
+      human-built structures.
     </p>
     <p>
-        Donec vel mauris lectus. Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-        Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-        nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-        sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-        interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-        consequat quam. Vivamus accumsan dui in facilisis aliquet.
+    The first 
+    <a className="about_link" 
+      href="https://www.thecollector.com/7-wonders-ancient-world/">
+      <strong> seven wonders of the ancient world </strong>
+    </a> 
+    list was made more than 2000 years 
+    ago, by adventurous Hellenic travelers who marveled at the world’s most incredible 
+    man-made constructions. Since then, most of the original list have been destroyed, 
+    aside from the Great Pyramid of Giza. In 2001, Swiss-born, Canadian filmmaker Bernard 
+    Weber set up the New7Wonders Foundation to find a new seven wonders of the world for the 
+    modern era, asking members of the public to cast their votes. After months of deliberating, 
+    debating and shortlists, these are the impressive feats that made the final cut.
     </p>
     <p>
-        Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-        Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-        nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-        sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-        interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-        consequat quam. Vivamus accumsan dui in facilisis aliquet.
+    Here is a list of some of the world’s most impressive buildings, including the Taj Mahal 
+    in Agra, India, The Great Wall of China in Beijing, The Christ the Redeemer Statue in Rio 
+    de Janeiro, Machu Picchu in Peru, Chichen Itza in Mexico’s Yucatan Peninsula, The Roman 
+    Colosseum in Rome, and Petra (Jordan).
     </p>
-  </>
+      </article>
+    </section>
 );
