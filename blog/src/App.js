@@ -6,11 +6,13 @@ import { ArticleListPage } from './pages/ArticleListPage';
 import { ArticlePage } from './pages/ArticlePage';
 import { HomePage } from './pages/HomePage';
 import { NotFoundPage } from './pages/NotFoundPage';
+import { ParticleBackground } from './components/particleBackground';
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="App" style={{ position: "relative" }}>
+      <ParticleBackground />
         <NavBar />
         <div id="page-body">
           <Routes>
@@ -21,6 +23,7 @@ function App() {
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </div>
+        
       </div>
     </BrowserRouter>
   );
