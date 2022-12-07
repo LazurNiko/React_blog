@@ -129,8 +129,9 @@ input, textarea {
   width: 500px;
   border: 2px;
   border-radius: 10px;
-  padding: 10px 0;
+  margin: 10px 0;
   position: relative;
+  box-shadow: 0px 0px 15px #2e5d7c;
 }
 
 .article_title {
