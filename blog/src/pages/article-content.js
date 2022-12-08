@@ -1,6 +1,6 @@
 export const articles = [
   {
-      name: 'Machu Picchu',
+      name: 'Machu-Picchu',
       title: 'Machu Picchu, Peru',
       image: ["https://www.intrepidtravel.com/adventures/wp-content/uploads/2018/06/1.-Intrepid-Travel-peru_machupicchu.jpg"],
       content: [
@@ -14,7 +14,7 @@ export const articles = [
         it is recognized today as one of the seven wonders.`,
       ]
   },  {
-      name: 'Chichén Itzá',
+      name: 'Chichen-Itza',
       title: 'Chichén Itzá, Mexico',
       image: ["https://cdn.thecollector.com/wp-content/uploads/2021/12/chichen-itza-image-1-1.jpg?width=1400&quality=55"],
       content: [
@@ -29,7 +29,7 @@ export const articles = [
           head at the base – no wonder it is one of the seven wonders today!`
       ]
   },  {
-      name: 'The Great Wall',
+      name: 'The-Great-Wall',
       title: 'The Great Wall of China',
       image: ["https://www.sbs.com.au/guide/sites/sbs.com.au.guide/files/styles/full/public/tgwoc_header.jpeg?itok=mQMYRUu5&mtime=1643261800"],
       content: [
@@ -55,7 +55,7 @@ export const articles = [
       century poet and scholar John William Burgon described Petra as “a rose-red city half as old as time.”`,
     ]
 },   {
-  name: 'Christ the Redeemer',
+  name: 'Christ-the-Redeemer',
   title: 'Christ the Redeemer, Brazil',
   image: ["https://media.tacdn.com/media/attractions-splice-spp-674x446/07/81/80/bf.jpg"],
   content: [
@@ -69,8 +69,8 @@ export const articles = [
     list for today’s seven wonders.`,
   ]
 },  {
-  name: 'The Taj Mahal',
-  title: 'Christ the Redeemer, BrazilThe Taj Mahal, India',
+  name: 'Taj-Mahal',
+  title: 'The Taj Mahal, India',
   image: ["https://www.forbesindia.com/media/images/2022/May/img_184243_tajmahalindia.jpg"],
   content: [
     `India’s renowned Taj Mahal (Persian for Crown of Palaces) is the stunning white marble mausoleum on 
@@ -83,7 +83,7 @@ export const articles = [
     component of India’s rich Mughal history.`,
   ]
 },  {
-  name: 'The Colosseum',
+  name: 'Colosseum',
   title: 'The Colosseum, Rome, Italy',
   image: ["https://www.italiarail.com/sites/default/files/2020-01/Colosseum%20-%20iStock-576715830_Fotor.jpg"],
   content: [
