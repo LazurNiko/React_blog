@@ -215,3 +215,18 @@ canvas {
   justify-content: flex-end;
 }
 
+.logIn-page {
+  position: relative;
+  
+}
+
+.login-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginToUpvoteButton {
+  position: relative;
+  margin-top: 5px;
+}

@@ -56,7 +56,7 @@ const particlesLoaded = useCallback(async container => {
           default: "bounce",
       },
       random: false,
-      speed: 0.3,
+      speed: 0.2,
       straight: false,
   },
     number: {
@@ -65,13 +65,13 @@ const particlesLoaded = useCallback(async container => {
         area: 1080
       },
       limit: 0,
-      value: 500,
+      value: 200,
     },
     opacity: {
       animation: {
         enable: true,
         minimumValue: 0.5,
-        speed: 2,
+        speed: 1,
         sync: false
       },
       random: {
@@ -88,7 +88,7 @@ const particlesLoaded = useCallback(async container => {
         enable: true,
         minimumValue: 0.5,
       },
-      value: 1,
+      value: 2,
     },
   },
 }}/>
