@@ -60,6 +60,7 @@ nav a:hover {
 
 #page-body {
   max-width: 700px;
+  min-height: 600px;
   margin: auto;
   padding-top: 72px;
   justify-content: center;
@@ -229,4 +230,18 @@ canvas {
 .loginToUpvoteButton {
   position: relative;
   margin-top: 5px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  color: var(--main-text-color);
+  position: fixed;
+  bottom: 0;
 }

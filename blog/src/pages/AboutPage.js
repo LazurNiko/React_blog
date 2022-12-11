@@ -12,9 +12,9 @@ export const AboutPage = () => (
     <p>
     The first 
     <a className="about_link" 
-      href="https://www.thecollector.com/7-wonders-ancient-world/">
+      href="https://www.history.com/topics/ancient-history/seven-wonders-of-the-ancient-world">
       <strong> seven wonders of the ancient world </strong>
-    </a> 
+    </a>
     list was made more than 2000 years 
     ago, by adventurous Hellenic travelers who marveled at the world’s most incredible 
     man-made constructions. Since then, most of the original list have been destroyed, 
