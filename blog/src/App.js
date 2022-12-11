@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import { NavBar } from './pages/NavBar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { AboutPage } from './pages/AboutPage';

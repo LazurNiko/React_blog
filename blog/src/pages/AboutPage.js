@@ -1,3 +1,5 @@
+import React from 'react';
+
 export const AboutPage = () => (
     <section>
       <h1 className="page_title">What Are the Seven Wonders of the World?</h1>

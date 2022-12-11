@@ -1,3 +1,5 @@
+import React from 'react';
+
 export const CommentList = ({ comments }) => (
   <section className="comments-section">
     <h3 className="comments-container">Comments:</h3>
