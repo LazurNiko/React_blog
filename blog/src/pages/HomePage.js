@@ -3,7 +3,7 @@ import React from 'react';
 export const HomePage = (props) => (
   <section className="article_home">
       <h1 className="page_title">Welcome to World of Wonders!</h1>
-      <p className="article_paragraph">Here you can learn more about 7 Wonders of 
+      <p className="article_paragraph">Here you can learn more about most popular Wonders of 
       the World. The Seven Wonders of the World is a compiled list of monuments 
       from all over the world that excel in unique architecture, craftsmanship and 
       ingenuity. The included catalogue includes the best natural wonders or human-built 
