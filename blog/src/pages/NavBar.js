@@ -8,16 +8,16 @@ export const NavBar = () => {
   const navigate = useNavigate();
 
   return (
-  <nav>
-    <ul>
+  <nav className='nav'>
+    <ul className='nav-list'>
       <li>
-        <Link to="/">Home</Link>
+        <Link  className='nav-item' to="/">Home</Link>
       </li>
       <li>
-        <Link to="/about">About</Link>
+        <Link className='nav-item' to="/about">About</Link>
       </li>
       <li>
-        <Link to="/articles">Articles</Link>
+        <Link className='nav-item' to="/articles">Articles</Link>
       </li>
     </ul>
     <div className='nav-right'>
